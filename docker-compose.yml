@@ -1,0 +1,6 @@
+services:
+  rogue-game:
+    build: .
+    container_name: rogue_game_app
+    stdin_open: true
+    tty: true
