@@ -1,0 +1,14 @@
+package org.rogue.presentation.input;
+
+/**
+ * Input command by player
+ */
+public enum InputCommand {
+    UP, DOWN, SELECT,
+    MOVE_UP, MOVE_DOWN, MOVE_LEFT, MOVE_RIGHT,
+    OPEN_FOOD_INVENTORY, OPEN_WEAPON_INVENTORY, OPEN_POTION_INVENTORY, OPEN_SCROLL_INVENTORY,
+    USE_ITEM_0, USE_ITEM_1, USE_ITEM_2, USE_ITEM_3, USE_ITEM_4,
+    USE_ITEM_5, USE_ITEM_6, USE_ITEM_7, USE_ITEM_8, USE_ITEM_9,
+    QUIT, NONE,
+    FOG_OF_WAR
+}
