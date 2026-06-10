@@ -5,8 +5,7 @@ import org.rogue.presentation.view.GameView;
 
 public class MenuPresenter {
     private final GameView view;
-    public final String[] options = {MenuResult.START.getText(), MenuResult.RECORDS.getText(),
-            MenuResult.LOAD.getText(), MenuResult.EXIT.getText()};
+    public final String[] options = {MenuResult.START.getText(), MenuResult.RECORDS.getText(), MenuResult.EXIT.getText()};
 
     public MenuPresenter(GameView view) {
         this.view = view;
